@@ -1,5 +1,6 @@
+import {SalesOrderItem} from './sales-order-item.js';
 
-class SalesOrder{
+  export class SalesOrder{
     constructor(id,customerId) {
         this.id=id;
         this.customerId=customerId;
@@ -23,6 +24,5 @@ class SalesOrder{
     get items() {
         return this._items;
     }
-
 
 }
